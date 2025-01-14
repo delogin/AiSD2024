@@ -1,4 +1,3 @@
-
 CXX = g++
 RM = del
 LISTING = L223_061

@@ -9,17 +9,17 @@ int main() {
     string str1, str2;
 
     // Ввод строк
-    cout << "Введите первую строку: ";
+    cout << "Enter the first line:";
     getline(cin, str1);
-    cout << "Введите вторую строку: ";
+    cout << "Enter the second line:";
     getline(cin, str2);
 
     // Поиск подстроки
     int result = findMatch(str1.c_str(), str2.c_str());
     if (result != -1) {
-        cout << "Подстрока найдена на позиции: " << result << endl;
+        cout << "Substring found at the position: " << result << endl;
     } else {
-        cout << "Подстрока не найдена." << endl;
+        cout << "The substring was not found." << endl;
     }
 
     return 0;
