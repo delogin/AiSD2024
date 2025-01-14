@@ -1,5 +1,3 @@
-
-
 #include "findmatch.h"
 #include <cstring>
 
