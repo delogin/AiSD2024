@@ -1,7 +1,7 @@
 CXX = g++
 RM = del
-LISTING = L222_060
-FUNCTION_NAME = myfunc
+LISTING = L223_061
+FUNCTION_NAME = findmatch
 
 # Сборка исполняемого файла
 $(LISTING).exe : $(LISTING).o $(FUNCTION_NAME).o
