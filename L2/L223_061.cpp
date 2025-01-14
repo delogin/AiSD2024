@@ -1,3 +1,4 @@
+//Ткаченко Илья ПМ-201
 #include <iostream>
 #include <string>
 #include "findmatch.h" // Подключение заголовочного файла
