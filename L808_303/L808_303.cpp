@@ -85,8 +85,8 @@ int main() {
 
     int cost = string_compare(s, t);
 
-    std::cout << "Стоимость редактирования строки \"" << s
-              << "\" в строку \"" << t << "\": " << cost << std::endl;
+    std::cout << "Cost of editing a line \"" << s
+              << "\" in line \"" << t << "\": " << cost << std::endl;
 
     return 0;
 }
